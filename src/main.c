@@ -20,6 +20,9 @@ extern int comm_main(int, char **);
 extern int cp_main(int, char **);
 extern int cron_main(int, char **);
 extern int ctrlaltdel_main(int, char **);
+extern int cut_main(int, char **);
+extern int date_main(int, char **);
+extern int dd_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -49,6 +52,9 @@ struct {
     {"cp", cp_main},
     {"cron", cron_main},
     {"ctrlaltdel", ctrlaltdel_main},
+    {"cut", cut_main},
+    {"date", date_main},
+    {"dd", dd_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},

@@ -21,3 +21,6 @@
 | cp         | YES    | YES        | 0.1     | /          |
 | cron       | YES    | NO         | 0.1     | /          |
 | ctrlaltdel | /      | /          | 0.1     | Linux Only |
+| cut        | YES    | YES        | 0.1     | /          |
+| date       | YES    | YES        | 0.1     | /          |
+| dd         | YES    | YES        | 0.1     | /          |

@@ -5,7 +5,7 @@ BOX := neveutils
 UTILS := yes whoami xinstall \
 				 basename blkdiscard cal cat chgrp chmod chown \
 				 chroot chvt cksum clear cmp cols comm cp cron \
-				 ctrlaltdel
+				 ctrlaltdel cut date dd
 
 SRC := src/main.c $(foreach cmd,$(UTILS),src/$(cmd)/$(cmd).c)
 OBJ := $(SRC:.c=.o)
