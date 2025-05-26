@@ -27,6 +27,9 @@ extern int df_main(int, char **);
 extern int dirname_main(int, char **);
 extern int dmesg_main(int, char **);
 extern int du_main(int, char **);
+extern int echo_main(int, char **);
+extern int ed_main(int, char **);
+extern int env_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -63,6 +66,9 @@ struct {
     {"dirname", dirname_main},
     {"dmesg", dmesg_main},
     {"du", du_main},
+    {"echo", echo_main},
+    {"ed", ed_main},
+    {"env", env_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},

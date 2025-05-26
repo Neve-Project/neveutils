@@ -28,3 +28,6 @@
 | dirname    | YES    | YES        | 0.1     | /          |
 | dmesg      | /      | /          | 0.1     | Linux Only |
 | du         | YES    | YES        | 0.1     | /          |
+| echo       | YES    | YES        | 0.1     | /          |
+| ed         | /      | YES        | 0.1     | /          |
+| env        | YES    | YES        | 0.1     | /          |
