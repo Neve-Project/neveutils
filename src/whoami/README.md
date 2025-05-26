@@ -9,4 +9,4 @@ WHOAMI(1) - General Commands Manual
 **whoami**
 writes the name of the effective uid to stdout.
 
-sbase - December 14, 2015
+neveutils - May 26, 2025

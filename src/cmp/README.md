@@ -66,4 +66,4 @@ specification.
 
 The "char" in the default result format has been replaced with "byte".
 
-sbase - October 8, 2015
+neveutils - May 26, 2025

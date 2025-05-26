@@ -14,4 +14,4 @@ BLKDISCARD(8) - System Manager's Manual
 **blkdiscard**
 is used to discard all device sectors on solid-state devices.
 
-ubase - July 2, 2018
+neveutils - May 26, 2025
