@@ -26,6 +26,7 @@ extern int dd_main(int, char **);
 extern int df_main(int, char **);
 extern int dirname_main(int, char **);
 extern int dmesg_main(int, char **);
+extern int du_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -61,6 +62,7 @@ struct {
     {"df", df_main},
     {"dirname", dirname_main},
     {"dmesg", dmesg_main},
+    {"du", du_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},

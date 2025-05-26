@@ -26,4 +26,5 @@
 | dd         | YES    | YES        | 0.1     | /          |
 | df         | /      | /          | 0.1     | /          |
 | dirname    | YES    | YES        | 0.1     | /          |
-| dmesg      | /      | /          | 0.1     | /          |
+| dmesg      | /      | /          | 0.1     | Linux Only |
+| du         | YES    | YES        | 0.1     | /          |
