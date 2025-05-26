@@ -23,6 +23,9 @@ extern int ctrlaltdel_main(int, char **);
 extern int cut_main(int, char **);
 extern int date_main(int, char **);
 extern int dd_main(int, char **);
+extern int df_main(int, char **);
+extern int dirname_main(int, char **);
+extern int dmesg_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -55,6 +58,9 @@ struct {
     {"cut", cut_main},
     {"date", date_main},
     {"dd", dd_main},
+    {"df", df_main},
+    {"dirname", dirname_main},
+    {"dmesg", dmesg_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},

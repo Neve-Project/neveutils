@@ -24,3 +24,6 @@
 | cut        | YES    | YES        | 0.1     | /          |
 | date       | YES    | YES        | 0.1     | /          |
 | dd         | YES    | YES        | 0.1     | /          |
+| df         | /      | /          | 0.1     | /          |
+| dirname    | YES    | YES        | 0.1     | /          |
+| dmesg      | /      | /          | 0.1     | /          |
