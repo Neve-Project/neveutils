@@ -15,6 +15,11 @@ extern int chvt_main(int, char **);
 extern int cksum_main(int, char **);
 extern int clear_main(int, char **);
 extern int cmp_main(int, char **);
+extern int cols_main(int, char **);
+extern int comm_main(int, char **);
+extern int cp_main(int, char **);
+extern int cron_main(int, char **);
+extern int ctrlaltdel_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -39,6 +44,11 @@ struct {
     {"cksum", cksum_main},
     {"clear", clear_main},
     {"cmp", cmp_main},
+    {"cols", cols_main},
+    {"comm", comm_main},
+    {"cp", cp_main},
+    {"cron", cron_main},
+    {"ctrlaltdel", ctrlaltdel_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},

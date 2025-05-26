@@ -4,7 +4,8 @@ include config.mk
 BOX := neveutils
 UTILS := yes whoami xinstall \
 				 basename blkdiscard cal cat chgrp chmod chown \
-				 chroot chvt cksum clear cmp
+				 chroot chvt cksum clear cmp cols comm cp cron \
+				 ctrlaltdel
 
 SRC := src/main.c $(foreach cmd,$(UTILS),src/$(cmd)/$(cmd).c)
 OBJ := $(SRC:.c=.o)

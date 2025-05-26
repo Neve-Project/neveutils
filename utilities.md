@@ -16,4 +16,8 @@
 | cksum      | YES    | YES        | 0.1     | /          |
 | clear      | /      | /          | 0.1     | Linux Only |
 | cmp        | YES    | YES        | 0.1     | /          |
-
+| cols       | YES    | NO         | 0.1     | /          |
+| comm       | YES    | YES        | 0.1     | /          |
+| cp         | YES    | YES        | 0.1     | /          |
+| cron       | YES    | NO         | 0.1     | /          |
+| ctrlaltdel | /      | /          | 0.1     | Linux Only |
