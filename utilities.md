@@ -1,0 +1,19 @@
+# Neveutils
+
+## Status
+
+| Name       | UTF-8  | POSIX 2013 | Version | Note       |
+| ---------- | ------ | ---------- | ------- | ---------- |
+| basename   | YES    | YES        | 0.1     | /          |
+| blkdiscard | /      | /          | 0.1     | Linux Only |
+| cal        | YES    | YES        | 0.1     | /          |
+| cat        | YES    | YES        | 0.1     | /          |
+| chgrp      | YES    | YES        | 0.1     | /          |
+| chmod      | YES    | YES        | 0.1     | /          |
+| chown      | YES    | YES        | 0.1     | /          |
+| chroot     | YES    | NO         | 0.1     | /          |
+| chvt       | /      | /          | 0.1     | Linux Only |
+| cksum      | YES    | YES        | 0.1     | /          |
+| clear      | /      | /          | 0.1     | Linux Only |
+| cmp        | YES    | YES        | 0.1     | /          |
+
