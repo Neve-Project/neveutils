@@ -23,11 +23,15 @@
 | ctrlaltdel | /      | /          | 0.1     | Linux Only |
 | cut        | YES    | YES        | 0.1     | /          |
 | date       | YES    | YES        | 0.1     | /          |
-| dd         | YES    | YES        | 0.1     | /          |
-| df         | /      | /          | 0.1     | /          |
+| dd         | /      | /          | 0.1     | Linux Only |
+| df         | /      | /          | 0.1     | Linux Only |
 | dirname    | YES    | YES        | 0.1     | /          |
 | dmesg      | /      | /          | 0.1     | Linux Only |
 | du         | YES    | YES        | 0.1     | /          |
 | echo       | YES    | YES        | 0.1     | /          |
 | ed         | /      | YES        | 0.1     | /          |
 | env        | YES    | YES        | 0.1     | /          |
+| expand     | YES    | YES        | 0.1     | /          |
+| expr       | YES    | YES        | 0.1     | /          |
+| false      | YES    | YES        | 0.1     | /          |
+| find       | YES    | YES        | 0.1     | /          |

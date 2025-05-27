@@ -30,6 +30,10 @@ extern int du_main(int, char **);
 extern int echo_main(int, char **);
 extern int ed_main(int, char **);
 extern int env_main(int, char **);
+extern int expand_main(int, char **);
+extern int expr_main(int, char **);
+extern int false_main(int, char **);
+extern int find_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -69,6 +73,10 @@ struct {
     {"echo", echo_main},
     {"ed", ed_main},
     {"env", env_main},
+    {"expand", expand_main},
+    {"expr", expr_main},
+    {"false", false_main},
+    {"find", find_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},
@@ -103,4 +111,3 @@ int main(int argc, char *argv[]) {
   usage();
   return 127;
 }
-

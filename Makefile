@@ -6,7 +6,7 @@ UTILS := yes whoami xinstall \
 				 basename blkdiscard cal cat chgrp chmod chown \
 				 chroot chvt cksum clear cmp cols comm cp cron \
 				 ctrlaltdel cut date dd df dirname dmesg du echo \
-				 ed
+				 ed env expand expr false find
 
 SRC := src/main.c $(foreach cmd,$(UTILS),src/$(cmd)/$(cmd).c)
 OBJ := $(SRC:.c=.o)
