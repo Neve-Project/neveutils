@@ -34,6 +34,13 @@ extern int expand_main(int, char **);
 extern int expr_main(int, char **);
 extern int false_main(int, char **);
 extern int find_main(int, char **);
+extern int flock_main(int, char **);
+extern int fold_main(int, char **);
+// extern int getconf_main(int, char **);
+extern int grep_main(int, char **);
+extern int head_main(int, char **);
+extern int hostname_main(int, char **);
+extern int join_main(int, char **);
 extern int whoami_main(int, char **);
 extern int xinstall_main(int, char **);
 extern int yes_main(int, char **);
@@ -77,6 +84,13 @@ struct {
     {"expr", expr_main},
     {"false", false_main},
     {"find", find_main},
+    {"flock", flock_main},
+    {"fold", fold_main},
+    // {"getconf", getconf_main},
+    {"grep", grep_main},
+    {"head", head_main},
+    {"hostname", hostname_main},
+    {"join", join_main},
     {"whoami", whoami_main},
     {"xinstall", xinstall_main},
     {"yes", yes_main},

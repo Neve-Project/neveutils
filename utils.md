@@ -1,4 +1,4 @@
-# Neveutils
+# neveutils
 
 ## Status
 
@@ -35,3 +35,7 @@
 | expr       | YES    | YES        | 0.1     | /          |
 | false      | YES    | YES        | 0.1     | /          |
 | find       | YES    | YES        | 0.1     | /          |
+| flock      | YES    | YES        | 0.1     | /          |
+| fold       | YES    | YES        | 0.1     | /          |
+| getconf    | YES    | YES        | 0.1     | Not Working|
+
